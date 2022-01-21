@@ -1,7 +1,8 @@
 ---
 title: Test page
 featured: /src/images/icon.png
-------------------------------
+---
+
 # Test
 
 Hello, this is a paragraph.
