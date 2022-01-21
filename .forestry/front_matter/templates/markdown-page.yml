@@ -1,0 +1,13 @@
+---
+label: Markdown page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: extra
+  label: extra
+- type: file
+  name: featured
+  label: featured
