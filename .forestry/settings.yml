@@ -1,26 +1,34 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path: static/admin
+webhook_url:
 sections:
-- type: heading
-  label: Pages
 - type: directory
   path: src/pages
-  label: Markdown pages
-  create: all
+  label: Markdown Pages
+  create: documents
   match: "**/*.md"
   new_doc_ext: md
+  templates:
+    - news-article
+- type: heading
+  label: Settings
+- type: document
+  path: package.json
+  label: package.json
 upload_dir: src/images
 public_path: "/src/images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":year:-:month:/:filename:"
 build:
+  preview_env:
+  - PATH_PREFIX=/
+  - GATSBY_WEBPACK_PUBLICPATH=/
   preview_output_directory: public
   install_dependencies_command: npm install
-  preview_docker_image: forestryio/node:12
-  mount_path: "/srv"
-  working_dir: "/srv"
-  instant_preview_command: npm run develop
+  preview_docker_image: node:14
+  mount_path: "/srv/app"
+  working_dir: "/srv/app"
+  instant_preview_command: npm run forestry:preview
