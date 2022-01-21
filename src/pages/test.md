@@ -2,6 +2,7 @@
 title: Test page
 featured: "/src/images/icon.png"
 featureImage: "/src/images/icon.png"
+feature: "/src/images/icon.png"
 
 ---
 # Test
