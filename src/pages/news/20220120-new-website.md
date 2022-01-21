@@ -2,8 +2,8 @@
 title: New Website
 extra: foo
 featured: /src/images/icon.png
----
 
+---
 # New Website
 
 Here we go.

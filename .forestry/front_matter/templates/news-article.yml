@@ -7,7 +7,7 @@ fields:
   name: title
   label: title
   description: Der Seitentitel, wie er im Browsertab angezeigt wird.
-- name: feature
+- name: featured
   type: file
   config:
     maxSize: 64
