@@ -35,5 +35,7 @@ fields:
     config:
       use_select: true
       source:
-        type: pages
-        section: markdown-pages
+        type: documents
+        section: package-json
+        file: package.json
+        path: dependencies
