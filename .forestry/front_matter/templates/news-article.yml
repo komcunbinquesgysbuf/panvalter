@@ -29,13 +29,3 @@ fields:
     - type: number
       name: garply
       label: garply
-  - type: list
-    name: pages
-    label: pages
-    config:
-      use_select: false
-      source:
-        type: simple
-        section: markdown-pages
-        file: src/pages/data.md
-        path: config
