@@ -33,9 +33,9 @@ fields:
     name: pages
     label: pages
     config:
-      use_select: true
+      use_select: false
       source:
-        type: pages
+        type: simple
         section: markdown-pages
         file: src/pages/data.md
         path: config
