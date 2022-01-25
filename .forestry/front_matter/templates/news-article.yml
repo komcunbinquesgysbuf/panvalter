@@ -36,6 +36,6 @@ fields:
       use_select: true
       source:
         type: documents
-        section: package-json
-        file: package.json
-        path: dependencies
+        section: markdown-pages
+        file: src/pages/data.md
+        path: config
