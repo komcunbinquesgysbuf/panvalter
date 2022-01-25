@@ -12,4 +12,4 @@ config:
   pages:
     - test.md
     - news/20220120-new-website.md
-----------------------------------
+---
