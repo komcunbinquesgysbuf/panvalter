@@ -32,3 +32,8 @@ fields:
   - type: list
     name: pages
     label: pages
+    config:
+      use_select: true
+      source:
+        type: pages
+        section: markdown-pages
