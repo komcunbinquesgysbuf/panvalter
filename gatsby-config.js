@@ -28,13 +28,6 @@ module.exports = {
       resolve: "gatsby-transformer-remark", options: {
         plugins: [
           {
-            resolve: "gatsby-remark-normalize-paths",
-            options: {
-              pathFields:
-              - pages
-            },
-          },
-          {
             resolve: `gatsby-remark-relative-images`,
             options: {
               staticFolderName: '.',
