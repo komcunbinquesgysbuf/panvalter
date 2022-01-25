@@ -19,8 +19,8 @@ sections:
   label: package.json
 upload_dir: src/images
 public_path: "/src/images"
-front_matter_path: ''
-use_front_matter_path: false
+front_matter_path: "/src/pages"
+use_front_matter_path: true
 file_template: ":year:-:month:/:filename:"
 build:
   preview_env:
