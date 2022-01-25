@@ -29,10 +29,10 @@ fields:
     - type: number
       name: garply
       label: garply
-- name: pages
-  type: list
-  config:
-    use_select: false
-    min: 
-    max: 
-  label: pages
+  - name: pages
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: pages
