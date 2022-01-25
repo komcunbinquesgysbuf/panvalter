@@ -10,7 +10,7 @@ config:
     grault: ckytud4cl0003ma86fxziituh
     garply: 3.141592654
   pages:
-  - news/20220120-new-website.md
-  - test.md
+  - src/pages/news/20220120-new-website.md
+  - src/pages/test.md
 
 ---
