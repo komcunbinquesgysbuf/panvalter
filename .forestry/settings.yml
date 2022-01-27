@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://hookb.in/W1Owbxjb82CYplzzpLG1
 sections:
+- type: heading
+  label: test
 - type: directory
   path: src/pages
   label: Markdown Pages
