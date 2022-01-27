@@ -1,0 +1,34 @@
+---
+label: data
+hide_body: true
+fields:
+- type: field_group
+  name: config
+  label: config
+  fields:
+  - type: number
+    name: foo
+    label: foo
+  - type: field_group_list
+    name: bar
+    label: bar
+    fields:
+    - type: boolean
+      name: baz
+      label: baz
+    - type: text
+      name: quux
+      label: quux
+  - type: field_group
+    name: corge
+    label: corge
+    fields:
+    - type: text
+      name: grault
+      label: grault
+    - type: number
+      name: garply
+      label: garply
+  - type: list
+    name: pages
+    label: pages
