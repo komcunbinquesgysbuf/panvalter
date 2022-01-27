@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: static/admin
-webhook_url: https://hookb.in/W1Owbxjb82CYplzzpLG1
+webhook_url: ''
 sections:
 - type: heading
   label: test
