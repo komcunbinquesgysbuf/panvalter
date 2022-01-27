@@ -1,6 +1,6 @@
 ---
 config:
-  foo: 123
+  foo: 120
   bar:
   - baz: true
     quux: ckytuc6ka0001ma86c8a3rtas
